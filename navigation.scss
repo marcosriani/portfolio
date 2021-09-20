@@ -1,0 +1,14 @@
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 75px;
+}
+
+.navigation__link {
+    padding-right: 23px;
+    text-decoration: none;
+    color: #A5A994;
+    font-size: 12px;
+    font-weight: 600;
+}

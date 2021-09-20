@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:  Helvetica, Arial, sans-serif
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+$base-color-green: #627764;
+$presentation-green: #636659;
+$base-background-yellow: #EFE3D3;
+$base-bottom-backup: #8F5D51;
+$base-view-more-button: #A5A994;
+$base-box-color: #F1CDB7;
+$base-transparent-gray: #F1F1EE;
+$base-transparent-green: #6E7163;
+$base-white: #FFFFFF;
+
+@import './navigation.scss';
+@import './presentation.scss'; 
+@import './button-more.scss';
+@import './about-me.scss';
+@import './skills.scss';
+@import './projects.scss';
+@import './contact.scss';
+@import './fotter.scss';

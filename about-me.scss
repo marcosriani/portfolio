@@ -1,0 +1,146 @@
+.about-me {
+    height: 85vh;
+    min-height: 700px;
+    position: relative;
+    z-index: 90;
+}
+
+.about-me__content {
+    background-color: $base-background-yellow;
+    height: 600px;
+    width: 90%;
+    margin-top: 100px;
+    padding: 28px;
+    position: relative;
+    z-index: 100;
+}
+
+.about-me__content--title {
+    color: $base-color-green;
+    font-weight: 200;
+    padding: 60px 0 60px 20px;
+}
+
+.about-me__content--details {
+   color: $presentation-green;
+   font-size: 20px; 
+   font-weight: 300;
+   padding: 60px 0 60px 20px;
+}
+
+.about-me__orange--box {
+    position: absolute;
+    right: 0;
+    top: -50px;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.about-me__view-more {
+    background-color: $base-view-more-button;
+    color: $base-box-color;
+    height: 150px;
+    padding: 10px;
+    text-align: center;
+    writing-mode: vertical-rl;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 40px;
+    z-index: 300;
+}
+.about-me__view-more--link {
+    text-decoration: none;
+    color: $base-box-color;
+}
+
+@media screen and (min-width: 480px) {
+    .about-me {
+        height: 80vh;
+        min-height: 500px;
+    }
+    .about-me__content {
+        width: 95%;
+    }
+    .about-me__view-more {
+        height: 200px;
+        padding:15px;
+        bottom: 150px;
+        font-size: 20px;
+        font-weight: 200;       
+    }
+}
+
+// ipad
+@media screen and (min-width: 768px) {
+    .about-me {
+        height: 90vh;
+        min-height: 400px;
+    }
+    .about-me__content {
+        height: 800px;
+        padding: 30px;
+    }
+    .about-me__content--title {
+        font-size: 40px; 
+        padding: 70px 20px 70px 50px;
+    }
+    .about-me__content--details {
+        font-size: 25px; 
+        padding: 70px 20px 70px 50px;
+     }
+     .about-me__view-more {
+        bottom: 55px;
+        font-weight: 400;       
+    }
+    
+}
+
+// Ipad Pro
+@media screen and (min-width: 991px) {
+    .about-me {
+        height: 75vh;
+        min-height: 300px;
+    }
+    .about-me__content {
+        height: 900px;
+        margin-top: 200px;
+        padding: 40px;
+    }
+    .about-me__content--title {
+        font-size: 50px; 
+        padding: 80px 30px 80px 60px;
+    }
+    .about-me__content--details {
+        font-size: 30px; 
+        padding: 80px 30px 80px 60px;
+     }
+     .about-me__view-more {
+        height: 220px;
+        padding:20px;
+        bottom: 50px;
+        font-size: 25px;
+    }
+
+}
+
+/* Styles for Desktops */
+@media screen and (min-width: 1025px)  {
+    .about-me__content {
+        height: 800px;
+        margin-top: 250px;
+        width: 90%;
+    }
+    .about-me__content--title {
+        padding: 100px 150px 50px 170px;
+    }
+    .about-me__content--details {
+        padding: 100px 150px 50px 170px;
+     }
+     .about-me__view-more {
+        height: 280px;
+        padding:20px;
+        bottom: 25px;
+        font-size: 30px;
+    }
+
+}
